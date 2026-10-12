@@ -36,7 +36,7 @@ allowed to grow; where a controller comes back only approximately, its actual me
 refunded up to sublinear changes, except in the free-energy ledger of a controller that comes back only in state, which counts its
 unrefunded free energy instead.
 
-This repository contains the manuscript, its source, and the machine checks that accompany it. It is version 1.1.0 of the Zenodo record [doi:10.5281/zenodo.23310632](https://doi.org/10.5281/zenodo.23310632); that concept DOI always resolves to the latest version. Version 1.0.2 is [doi:10.5281/zenodo.23323046](https://doi.org/10.5281/zenodo.23323046), version 1.0.1 is [doi:10.5281/zenodo.23310740](https://doi.org/10.5281/zenodo.23310740) and version 1.0.0 is [doi:10.5281/zenodo.23310633](https://doi.org/10.5281/zenodo.23310633). The manuscript is the
+This repository contains the manuscript, its source, and the machine checks that accompany it. It is version 1.1.0 ([doi:10.5281/zenodo.23325723](https://doi.org/10.5281/zenodo.23325723)) of the Zenodo record [doi:10.5281/zenodo.23310632](https://doi.org/10.5281/zenodo.23310632); that concept DOI always resolves to the latest version. Version 1.0.2 is [doi:10.5281/zenodo.23323046](https://doi.org/10.5281/zenodo.23323046), version 1.0.1 is [doi:10.5281/zenodo.23310740](https://doi.org/10.5281/zenodo.23310740) and version 1.0.0 is [doi:10.5281/zenodo.23310633](https://doi.org/10.5281/zenodo.23310633). The manuscript is the
 authority for exact statements and hypotheses; [verification/README.md](verification/README.md) lists what is checked
 by machine and what is proved only in the text.
 
