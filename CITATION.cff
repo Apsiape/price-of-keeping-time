@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the manuscript; this repository supplies its source and verification artifacts."
 type: software
 title: "The price of keeping time"
-version: 1.0.2
+version: 1.1.0
 date-released: 2026-10-12
 license:
   - CC-BY-4.0

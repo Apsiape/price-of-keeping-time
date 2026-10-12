@@ -8,4 +8,4 @@ require mathlib from git
 
 @[default_target]
 lean_lib Proofs where
-  roots := #[`Constants, `Sinc, `NoProgramming, `Permutations, `ExactIdentities]
+  roots := #[`Constants, `Sinc, `NoProgramming, `Permutations, `ExactIdentities, `Ladder]

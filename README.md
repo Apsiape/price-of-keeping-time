@@ -18,6 +18,12 @@ asks what owning that clock costs.
 - **How large the clock must be.** At fixed error, the same condition sets how the clock's capital spread must grow:
   not at all for covariant channels, like the square root of the number of uses when the environment can carry the
   energy change (by a construction that does not attain the optimal work), and at least linearly when it cannot.
+- **A controller that comes back only in state.** Counting the controller's free energy, no time reference does
+  better in batch than a returned clock. A controller that comes back close in state but does not refund its free energy,
+  as an embezzling state does, can lower the battery's work to the capacity or below it, but only by paying the
+  difference from its own free energy, like a second battery; to pay a fixed amount per use within return error η,
+  its energy range plus kT times the logarithm of its dimension must be at least of order the number of uses
+  divided by η, and a classical ladder of that size suffices.
 - **Time reversal.** In batch with a returned clock, a Gibbs-preserving qutrit channel costs 0.1547 kT per use, while
   its Petz reverse costs nothing.
 - **Noise horizon.** Any fixed amount of full-rank thermal noise makes both directions free, but for a finite run
@@ -27,9 +33,10 @@ asks what owning that clock costs.
 
 All rates here are optimal asymptotic work rates at vanishing error over the complete interaction, with hardware
 allowed to grow; where a controller comes back only approximately, its actual mean energy and entropy are also
-refunded up to sublinear changes.
+refunded up to sublinear changes, except in the free-energy ledger of a controller that comes back only in state, which counts its
+unrefunded free energy instead.
 
-This repository contains the manuscript, its source, and the machine checks that accompany it. It is version 1.0.2 ([doi:10.5281/zenodo.23323046](https://doi.org/10.5281/zenodo.23323046)) of the Zenodo record [doi:10.5281/zenodo.23310632](https://doi.org/10.5281/zenodo.23310632); that concept DOI always resolves to the latest version. Version 1.0.1 is [doi:10.5281/zenodo.23310740](https://doi.org/10.5281/zenodo.23310740) and version 1.0.0 is [doi:10.5281/zenodo.23310633](https://doi.org/10.5281/zenodo.23310633). The manuscript is the
+This repository contains the manuscript, its source, and the machine checks that accompany it. It is version 1.1.0 of the Zenodo record [doi:10.5281/zenodo.23310632](https://doi.org/10.5281/zenodo.23310632); that concept DOI always resolves to the latest version. Version 1.0.2 is [doi:10.5281/zenodo.23323046](https://doi.org/10.5281/zenodo.23323046), version 1.0.1 is [doi:10.5281/zenodo.23310740](https://doi.org/10.5281/zenodo.23310740) and version 1.0.0 is [doi:10.5281/zenodo.23310633](https://doi.org/10.5281/zenodo.23310633). The manuscript is the
 authority for exact statements and hypotheses; [verification/README.md](verification/README.md) lists what is checked
 by machine and what is proved only in the text.
 
