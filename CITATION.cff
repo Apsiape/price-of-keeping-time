@@ -20,6 +20,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23310633
     description: "Version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23310740
+    description: "Version 1.0.1"
 url: "https://github.com/Apsiape/price-of-keeping-time"
 repository-code: "https://github.com/Apsiape/price-of-keeping-time"
 preferred-citation:
