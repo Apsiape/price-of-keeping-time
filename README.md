@@ -7,6 +7,8 @@ Seth Douglas and Nidhal Mghirbi — October 2026.
 [Read the manuscript](paper/main.pdf) · [TeX source](paper/main.tex) ·
 [Machine checks](verification/README.md)
 
+A short letter summarizing all four papers is *Order, not speed: the work price of letting go* ([doi:10.5281/zenodo.23323808](https://doi.org/10.5281/zenodo.23323808); [Apsiape/order-not-speed](https://github.com/Apsiape/order-not-speed)).
+
 A device that runs a quantum operation which does not respect time translation needs its own clock. This paper
 asks what owning that clock costs.
 
